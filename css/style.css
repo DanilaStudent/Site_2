@@ -1,3 +1,4 @@
+/* ---General Style Setting--- */
 *,
 ::after,
 ::before {
@@ -5,16 +6,67 @@
     padding: 0;box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-  font-family: "Inter", sans-serif;
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
+/* ---HEADER--- */
+.header-container {
+    max-width: 1920px;
+    max-height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-.form-container {
+.header-container__logo {
+    margin-right: 244px;
+}
+
+.header-container__navigation {
+    align-items: baseline;
+}
+
+.header-container ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    gap: 115px;
+}
+
+.header-container ul li {
+    list-style: none;
+}
+/* --- Presintation header section --- */
+.presintation-header-container {
+    max-width: 1920px;
+    max-height: 705px;
+}
+
+.presintation-header-container__sectiontitle {
+
+}
+
+.presintation-header-h1__title {
+
+}
+
+.presintation-header-p__description {
+
+}
+
+.presintation-header-btn__showauto {
+    
+}
+
+/* ---\samples/--- */
+/* .form-container {
     background-color: aquamarine;
     display: flex;
     flex-direction: column;
@@ -27,4 +79,4 @@ body {
     border: 1px solid black;
     border-radius: 15px;
     padding: 20px 0;
-}
+} 
