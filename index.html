@@ -10,7 +10,7 @@
    <header class="header">
         <!-- \Menu + Logo/ -->
         <div class="header-container">
-            <img class="header-container__logo" src="img/mainlogo.png" alt="лого меню">
+            <img class="header-container__logo" src="img/mainlogo.png" alt="лого меню" height="39px" width="113px">
             <nav class="header-container__navigation">
                 <ul>
                     <li>Главная</li>
@@ -26,42 +26,191 @@
             <div class="presintation-header-container__sectiontitle">
                 <h1 class="presintation-header-h1__title">Аренда премиальных <br>автомобилей</h1>
                 <p class="presintation-header-p__description">В нашем клубе имеется солидная коллекция спортивных <br> автомобилей — от достаточно распространенных серийных <br> машин до настоящего гоночного эксклюзива. Воспользуйтесь <br>  уникальной возможностью побывать за рулем настоящей <br> легенды и узнать, на что она способна за пределами гоночной <br> трассы!</p>
-                <button class="presintation-header-btn__showauto">Посмотреть автомобили</button>
+                <button class="presintation-header-btn__showauto">ПОСМОТРЕТЬ АВТОМОБИЛИ</button>
             </div>
         </div>
         <!-- \Show-case Car section/ -->
-         <div class="show-case-container">
+        <div class="show-case-container">
             <h1 class="show-case__title">Наш автопарк</h1>
-            <div class="show-case__cats">
-                <!-- btn show-case in general settings css ====> ./css/style.css(General Style Setting) -->
-                <!-- to-book-cart in general settings css ====> ./css/style.css(General Style Setting) -->
-                <!-- show-param-cartgroup |_ in general settings css ====> ./css/style.css(General Style Setting) -->
-                <div class="show-case__to-book-cart">
-                    <img src="img/lamborgini-1.png" alt="lamba">
-                    <p class="show-case__titlecar">Lamborghini Huracan Spyder</p>
-                    <!-- show-param-cartgroup |_ -->
-                    <div class="show-case__show-param-cartgroup"> 
-                        <div class="param-gear">
-                            <img src="img/gear-icon.png" alt="gear">
-                            <p class="param_p-title">Привод</p>
-                            <p class="param_p-description">полный</p>
+            <div class="show-case-container__cart-groupe">
+                <!-- 1 -->
+                <div class="show-case__cars">
+                    <div class="show-case__to-book-cart">
+                        <img src="img/lamborgini-1.png" alt="lamba" height="246px" width="384px">
+                        <p class="show-case__titlecar">Lamborghini Huracan Spyder</p>
+                        <!-- show-param-cartgroup |_ -->
+                        <div class="show-case__show-param-cartgroup"> 
+                            <div class="show-case__param-block">
+                                <img src="img/gear-icon.png" alt="gear">
+                                <p class="param_p-title">Привод</p>
+                                <p class="param_p-description">полный</p>
+                            </div>
+                            <div class="show-case__param-block">
+                                <img src="img/wheel-icon.png" alt="engine">
+                                <p class="param_p-title">Двигатель</p>
+                                <p class="param_p-description">5.2 л.с.</p>
+                            </div>
+                            <div class="show-case__param-block">
+                                <img src="img/belt-icon.png" alt="place">
+                                <p class="param_p-title">Кол-во мест</p>
+                                <p class="param_p-description">2</p>
+                            </div>
                         </div>
-                        <div class="param-engine">
-                            <img src="img/wheel-icon.png" alt="engine">
-                            <p class="param_p-title">Двигатель</p>
-                            <p class="param_p-description">5.2 л.с.</p>
-                        </div>
-                        <div class="param-place">
-                            <img src="img/belt-icon.png" alt="place">
-                            <p class="param_p-title">Кол-во мест</p>
-                            <p class="param_p-description">2</p>
-                        </div>
+                        <button class="show-case__btn-to-book-cart">ЗАБРОНИРОВАТЬ</button>
                     </div>
-                    <button class="show-case__btn-to-book-cart">Забронировать</button>
+                </div>
+                <!-- 2 -->
+                <div class="show-case__cars">
+                    <div class="show-case__to-book-cart">
+                        <img src="img/corvet-2.png" alt="Corvette" height="246px" width="384px">
+                        <p class="show-case__titlecar">Chevrolet Corvette</p>
+                        <!-- show-param-cartgroup |_ -->
+                        <div class="show-case__show-param-cartgroup"> 
+                            <div class="show-case__param-block">
+                                <img src="img/gear-icon.png" alt="gear">
+                                <p class="param_p-title">Привод</p>
+                                <p class="param_p-description">полный</p>
+                            </div>
+                            <div class="show-case__param-block">
+                                <img src="img/wheel-icon.png" alt="engine">
+                                <p class="param_p-title">Двигатель</p>
+                                <p class="param_p-description">6.2 л.с.</p>
+                            </div>
+                            <div class="show-case__param-block">
+                                <img src="img/belt-icon.png" alt="place">
+                                <p class="param_p-title">Кол-во мест</p>
+                                <p class="param_p-description">2</p>
+                            </div>
+                        </div>
+                        <button class="show-case__btn-to-book-cart">ЗАБРОНИРОВАТЬ</button>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="show-case__cars">
+                    <div class="show-case__to-book-cart">
+                        <img src="img/ferrari-3.png" alt="California" height="246px" width="384px">
+                        <p class="show-case__titlecar">Ferrari California</p>
+                        <!-- show-param-cartgroup |_ -->
+                        <div class="show-case__show-param-cartgroup"> 
+                            <div class="show-case__param-block">
+                                <img src="img/gear-icon.png" alt="gear">
+                                <p class="param_p-title">Привод</p>
+                                <p class="param_p-description">полный</p>
+                            </div>
+                            <div class="show-case__param-block">
+                                <img src="img/wheel-icon.png" alt="engine">
+                                <p class="param_p-title">Двигатель</p>
+                                <p class="param_p-description">3.9 л.с.</p>
+                            </div>
+                            <div class="show-case__param-block">
+                                <img src="img/belt-icon.png" alt="place">
+                                <p class="param_p-title">Кол-во мест</p>
+                                <p class="param_p-description">4</p>
+                            </div>
+                        </div>
+                        <button class="show-case__btn-to-book-cart">ЗАБРОНИРОВАТЬ</button>
+                    </div>
+                </div>
+                <!-- 4 -->
+                <div class="show-case__cars">
+                    <div class="show-case__to-book-cart">
+                        <img src="img/lamborgini-4.png" alt="Urus" height="246px" width="384px">
+                        <p class="show-case__titlecar">Lamborghini Urus</p>
+                        <!-- show-param-cartgroup |_ -->
+                        <div class="show-case__show-param-cartgroup"> 
+                            <div class="show-case__param-block">
+                                <img src="img/gear-icon.png" alt="gear">
+                                <p class="param_p-title">Привод</p>
+                                <p class="param_p-description">полный</p>
+                            </div>
+                            <div class="show-case__param-block">
+                                <img src="img/wheel-icon.png" alt="engine">
+                                <p class="param_p-title">Двигатель</p>
+                                <p class="param_p-description">4.0 л.с.</p>
+                            </div>
+                            <div class="show-case__param-block">
+                                <img src="img/belt-icon.png" alt="place">
+                                <p class="param_p-title">Кол-во мест</p>
+                                <p class="param_p-description">5</p>
+                            </div>
+                        </div>
+                        <button class="show-case__btn-to-book-cart">ЗАБРОНИРОВАТЬ</button>
+                    </div>
+                </div>
+                <!-- 5 -->
+                <div class="show-case__cars">
+                    <div class="show-case__to-book-cart">
+                        <img src="img/audi-5.png" alt="Audi" height="246px" width="384px">
+                        <p class="show-case__titlecar">Audi R8</p>
+                        <!-- show-param-cartgroup |_ -->
+                        <div class="show-case__show-param-cartgroup"> 
+                            <div class="show-case__param-block">
+                                <img src="img/gear-icon.png" alt="gear">
+                                <p class="param_p-title">Привод</p>
+                                <p class="param_p-description">полный</p>
+                            </div>
+                            <div class="show-case__param-block">
+                                <img src="img/wheel-icon.png" alt="engine">
+                                <p class="param_p-title">Двигатель</p>
+                                <p class="param_p-description">5.2 л.с.</p>
+                            </div>
+                            <div class="show-case__param-block">
+                                <img src="img/belt-icon.png" alt="place">
+                                <p class="param_p-title">Кол-во мест</p>
+                                <p class="param_p-description">2</p>
+                            </div>
+                        </div>
+                        <button class="show-case__btn-to-book-cart">ЗАБРОНИРОВАТЬ</button>
+                    </div>
+                </div>
+                <!-- 6 -->
+                <div class="show-case__cars">
+                    <div class="show-case__to-book-cart">
+                        <img src="img/comaro-6.png" alt="Comaro" height="246px" width="384px">
+                        <p class="show-case__titlecar">Chevrolet Camaro</p>
+                        <!-- show-param-cartgroup |_ -->
+                        <div class="show-case__show-param-cartgroup"> 
+                            <div class="show-case__param-block">
+                                <img src="img/gear-icon.png" alt="gear">
+                                <p class="param_p-title">Привод</p>
+                                <p class="param_p-description">полный</p>
+                            </div>
+                            <div class="show-case__param-block">
+                                <img src="img/wheel-icon.png" alt="engine">
+                                <p class="param_p-title">Двигатель</p>
+                                <p class="param_p-description">5.2 л.с.</p>
+                            </div>
+                            <div class="show-case__param-block">
+                                <img src="img/belt-icon.png" alt="place">
+                                <p class="param_p-title">Кол-во мест</p>
+                                <p class="param_p-description">2</p>
+                            </div>
+                        </div>
+                        <button class="show-case__btn-to-book-cart">ЗАБРОНИРОВАТЬ</button>
+                    </div>
                 </div>
             </div>
-         </div>
+        </div>
+         <!-- \Feedback & contact section/ -->
+        <div class="feedback-contact-container">
+            <div class="feedback-cocntact-container__intputform">
+                <h1 class="inputform-feedback__h1-title">Узнать цену и забронировать</h1>
+                <p class="inputform-feedback__p-description">Заполните данные, и мы перезвоним вам для уточнения всех деталей бронирования</p>
+                <form class="inputform-feedback__form-inputs">
+                    <input class="input-form__txt" type="text" placeholder="Ваше имя">
+                    <input class="input-form__txt" type="tel" placeholder="Ваш телефон">
+                    <input class="input-form__txt" type="text" placeholder="">
+                    <button class="input-form__btn">УЗНАТЬ ЦЕНУ</button>
+                </form>
+            </div>
+        </div>
    </main>
-   <footer class="footer"></footer>
+   <footer class="footer">
+    <!-- \ Jurist foother section/ -->
+     <div class="jurist-foother-container">
+        <img src="img/mainlogo.png" alt="footerlogo" height="39px" width="113px">
+        <p>Все права защищены</p>
+     </div>
+   </footer>
 </body>
 </html>

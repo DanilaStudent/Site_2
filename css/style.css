@@ -1,4 +1,4 @@
-/* ---General Style Setting--- */
+/* ---START_General Style Setting--- */
 *,
 ::after,
 ::before {
@@ -9,47 +9,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-  background-color: #fff;
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
-/* --- \show-case__cats/ --- */
-.show-case__to-book-cart {
-    width: 384px;
-    height: 473px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.show-case__to-book-cart p.show-case__titlecar {
-    font-weight: 700;
-    font-size: 24px;
-}
-
-.show-case__to-book-cart button.show-case__btn-to-book-cart {
-  background-color: #030305;
-}
-/* ---//////////\\\\\\\\\\\\ */
+/* END_General Style Setting */
 /* ---HEADER--- */
+/* --- Menu + Logo --- */
 .header-container {
-    max-width: 1920px;
-    max-height: 90px;
+    margin: 0; 
+    width: 1920px;
+    height: 90px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #E5E5E5;
 }
+ .header-container img {
+    margin-left: 360px;
+ }
 
-.header-container__logo {
-    margin-right: 244px;
-}
-
-.header-container__navigation {
-    align-items: baseline;
-}
+ .header-container nav {
+    margin-right: 724px;
+ }
 
 .header-container ul {
     display: flex;
@@ -108,18 +95,135 @@ body {
 }
 /* --- Show-case Car section --- */
 .show-case-container {
+    margin: 0;
     width: 1920px;
     height: 1096px;
 }
 
+.show-case-container__cart-groupe {
+    margin: 0;
+    width: 1200px;
+    height: 986px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-left: 360px;
+    margin-right: 360px;
+}
+
 .show-case-container h1 {
+    margin-left: 360px;
     font-size: 60px;
 }
 
-.show-case__cats {
 
+.show-case__to-book-cart {
+    width: 384px;
+    height: 473px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.show-case__to-book-cart p.show-case__titlecar {
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.show-case__show-param-cartgroup {
+    margin-top: 17px;
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+}
+
+.show-case__to-book-cart button.show-case__btn-to-book-cart {
+    margin-top: 13px;
+    background-color: #030305;
+    height: 54px;
+    width: 384px;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    font-size: 16px;
+}
+
+.show-case__param-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.show-case__param-block p.param_p-title {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* --- Feedback & contact section --- */
+.feedback-contact-container {
+    margin: 0;
+    width: 1920px;
+    height: 596px;
+    background-image: url(../img/rolls-fother.png);
+    background-repeat: no-repeat;
+    background-position: 761px 90px;
+}
+
+
+.feedback-cocntact-container__intputform {
+    margin: 0;
+    margin-left: 360px;
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback-cocntact-container__intputform h1.inputform-feedback__h1-title {
+    font-weight: 700;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.feedback-cocntact-container__intputform p.inputform-feedback__p-description {
+    margin-bottom: 60px;
+}
+
+.inputform-feedback__form-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-form__txt {
+    width: 334px;
+    height: 64px;
+}
+
+.input-form__btn {
+    background-color: #030305;
+    color: #fff;
+    width: 334px;
+    height: 64px;
+}
+
+/* --- FOOTHER --- */
+/* --- Jurist foother section --- */
+.jurist-foother-container {
+    width: 1920px;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #E5E5E5;
+}
+
+.jurist-foother-container img {
+    margin-left: 360px;
+}
+
+.jurist-foother-container p {
+    margin-right: 360px;
+}
 /* ---\samples/--- */
 /* .form-container {
     background-color: aquamarine;
