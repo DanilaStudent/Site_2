@@ -47,6 +47,11 @@ body {
 
 .header-container ul li {
     list-style: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0%;
+
 }
 /* --- MAIN --- */
 /* --- Presintation header-main section --- */
@@ -81,7 +86,10 @@ body {
 
 .presintation-header-container__sectiontitle p {
     font-size: 16px;
-    font-weight: lighter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0%;
 }
 
 .presintation-header-btn__showauto {
@@ -186,6 +194,10 @@ body {
 
 .feedback-cocntact-container__intputform p.inputform-feedback__p-description {
     margin-bottom: 60px;
+    font-weight: 400;
+    font-size: 16px;   
+    line-height: 130%;
+    letter-spacing: 0%;
 }
 
 .inputform-feedback__form-inputs {
