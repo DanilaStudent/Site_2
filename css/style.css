@@ -215,6 +215,7 @@ body {
 }
 
 .input-form__txt {
+    border-radius: 1px #5D5D5F;
     width: 334px;
     height: 64px;
 }
