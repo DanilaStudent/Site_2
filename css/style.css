@@ -186,12 +186,20 @@ body {
     flex-direction: column;
 }
 
-.feedback-cocntact-container__intputform h1.inputform-feedback__h1-title {
-    font-weight: 700;
-    font-size: 60px;
-    margin-bottom: 20px;
+.feedback-cocntact-container__intputform form.inputform-feedback__form-inputs {
+    font-weight: 400;
+    font-size:  16px;
+    list-style: 160%;
+
 }
 
+.input-form__txt::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+}
 .feedback-cocntact-container__intputform p.inputform-feedback__p-description {
     margin-bottom: 60px;
     font-weight: 400;
