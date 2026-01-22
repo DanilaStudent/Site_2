@@ -201,7 +201,15 @@ body {
     align-items: center;
     padding-left: 18px;
 }
+
+.feedback-cocntact-container__intputform h1.inputform-feedback__h1-title {
+    font-weight: 700;
+    font-size: 60px;
+}
+
 .feedback-cocntact-container__intputform p.inputform-feedback__p-description {
+    margin-top: 20px;
+    color: #5D5D5F;
     margin-bottom: 60px;
     font-weight: 400;
     font-size: 16px;   
